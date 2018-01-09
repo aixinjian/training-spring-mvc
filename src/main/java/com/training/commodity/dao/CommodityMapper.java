@@ -1,6 +1,6 @@
-package com.flower.commodity.dao;
+package com.training.commodity.dao;
 
-import com.flower.commodity.pojo.Commodity;
+import com.training.commodity.entity.Commodity;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
@@ -9,7 +9,6 @@ import java.util.Map;
 
 /**
  * 商品mapper
- * Created by lenovo on 2017/6/22.
  */
 @Repository
 public interface CommodityMapper {

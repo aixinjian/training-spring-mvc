@@ -1,7 +1,7 @@
-package com.flower.commodity.controller;
+package com.training.commodity.controller;
 
-import com.flower.commodity.pojo.Commodity;
-import com.flower.commodity.service.CommodityService;
+import com.training.commodity.entity.Commodity;
+import com.training.commodity.service.CommodityService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -14,7 +14,6 @@ import java.util.Map;
 
 /**
  * 商品controller
- * Created by lenovo on 2017/6/21.
  */
 @Controller
 @RestController

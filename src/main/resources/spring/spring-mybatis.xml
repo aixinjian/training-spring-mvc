@@ -39,7 +39,7 @@
 
     <!-- DAO接口所在，spring自动扫描匹配 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.flower.*.dao" />
+        <property name="basePackage" value="com.training.*.dao" />
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
     </bean>
 

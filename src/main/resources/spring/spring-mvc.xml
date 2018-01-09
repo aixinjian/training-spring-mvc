@@ -10,7 +10,7 @@
                         http://www.springframework.org/schema/mvc
                         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
     <!-- bean definitions here -->
-    <context:component-scan base-package="com.flower" />
+    <context:component-scan base-package="com.training" />
 
     <!--HandlerMapping 无需配置，springmvc可以默认启动-->
 

@@ -1,10 +1,9 @@
-package com.flower.commodity.pojo;
+package com.training.commodity.entity;
 
 import java.io.Serializable;
 
 /**
  * 商品实体类
- * Created by lenovo on 2017/6/22.
  */
 public class Commodity implements Serializable{
 

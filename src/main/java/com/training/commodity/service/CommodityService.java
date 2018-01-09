@@ -1,13 +1,12 @@
-package com.flower.commodity.service;
+package com.training.commodity.service;
 
-import com.flower.commodity.pojo.Commodity;
+import com.training.commodity.entity.Commodity;
 
 import java.util.List;
 import java.util.Map;
 
 /**
  * 商品接口service
- * Created by lenovo on 2017/6/22.
  */
 public interface CommodityService {
     /**
