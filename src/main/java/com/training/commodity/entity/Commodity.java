@@ -1,6 +1,7 @@
 package com.training.commodity.entity;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 /**
  * 商品实体类
@@ -25,5 +26,11 @@ public class Commodity implements Serializable{
 
     public void setSkuTitle(String skuTitle) {
         this.skuTitle = skuTitle;
+    }
+
+    public static void main(String[] args){
+        BigDecimal b = new BigDecimal(55555.00);
+        System.out.println(b.longValue());
+
     }
 }

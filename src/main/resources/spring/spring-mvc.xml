@@ -14,6 +14,7 @@
 
     <!--HandlerMapping 无需配置，springmvc可以默认启动-->
 
+    <mvc:annotation-driven></mvc:annotation-driven>
     <!--静态资源映射-->
 
     <!--但是项目部署到linux下发现WEB-INF的静态资源会出现无法解析的情况，但是本地tomcat访问正常，因此建议还是直接把静态资源放在webapp的statics下，映射配置如下-->
@@ -32,6 +33,8 @@
         <property name="prefix" value="/WEB-INF/"/><!--设置JSP文件的目录位置-->
         <property name="suffix" value=".jsp"/>
     </bean>
+
+    <bean id="/test" class="com.training.commodity.controller.BeanController"></bean>
 
     <import resource="classpath:spring/spring-mybatis.xml" />
 
