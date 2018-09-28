@@ -1,7 +1,7 @@
 package com.training.commodity.controller;
 
-import com.training.commodity.entity.Commodity;
 import com.training.commodity.service.CommodityService;
+import com.training.commodity.entity.Commodity;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -1,11 +1,9 @@
 package com.training.commodity.dao;
 
-import com.google.common.collect.Maps;
 import com.training.commodity.entity.Commodity;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
-import java.util.EventListener;
 import java.util.List;
 import java.util.Map;
 
@@ -20,11 +18,5 @@ public interface CommodityMapper {
      * @return
      */
     List<Commodity> getCommodityList(@Param("params") Map<String,Object> params);
-
-
-
-
-
-
 
 }
