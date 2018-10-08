@@ -10,9 +10,5 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @ComponentScan("com.training.*")
 @EnableAspectJAutoProxy
 public class AppConfig {
-    @Bean
-    public CommodityServiceImpl commodityService(){
-        CommodityServiceImpl commodityService = new CommodityServiceImpl();
-        return commodityService;
-    }
+
 }
