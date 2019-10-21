@@ -119,7 +119,7 @@ public class StreamTest {
     }
 
 
-    /**/
+    /*floatMap 将一个流中的每个值都转为一个流*/
     @Test
     public void floatMapTest() {
         List<String> strings = Arrays.asList("hello", "world");
@@ -233,6 +233,8 @@ public class StreamTest {
     public void listToList() {
 
     }
+
+
 
 
 }
